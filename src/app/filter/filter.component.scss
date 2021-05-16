@@ -1,0 +1,18 @@
+select {
+    background-color: white;
+    height: 100%;
+    padding: 0 4%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px #0000004d;
+    option:first-child {
+        border-radius: 5px 5px 0 0;
+    }
+    option:last-child {
+        border-radius: 0 0 5px 5px;
+    }
+}
+
+select:focus {
+    outline: none;
+}

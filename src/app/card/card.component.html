@@ -1,0 +1,11 @@
+<div class="card-container">
+    <a routerLink="/country/{{country.name}}">
+        <img src="{{country.flag}}" alt="">
+    </a>
+    <div class="card-text">
+        <h3><a routerLink="/country/{{country.name}}">{{country.name}}</a></h3>
+        <p><span>Population: </span>{{country.population}}</p>
+        <p><span>Region: </span>{{country.region}}</p>
+        <p><span>Capital: </span>{{country.capital}}</p>
+    </div>
+</div>

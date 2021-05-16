@@ -1,0 +1,33 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    box-shadow: 0px 2px 10px #0000004d;
+    h1 {
+        display: inline-block;
+        margin: 0.5%;
+    }
+    .theme-group {
+        display: flex;
+        align-items: center;
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .top-bar {
+        padding: 3%;
+        box-shadow: 0px 2px 10px #0000004d;
+        h1 {
+            display: inline-block;
+            margin: 0.5%;
+            font-size: 1.3rem;
+        }
+        .theme-group {
+            font-size: 0.8rem;
+        }
+    }
+}

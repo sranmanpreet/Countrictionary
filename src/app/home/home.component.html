@@ -1,0 +1,7 @@
+<div class="actions-container">
+    <app-search (searchTextEvent)="search($event)"></app-search>
+    <app-filter (countriesEvent)="getCountries($event)"></app-filter>
+</div>
+<div class="gallery">
+    <app-card *ngFor="let country of countries | search : searchText" [country]="country"></app-card>
+</div>

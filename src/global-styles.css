@@ -1,11 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url(light-theme.scss);
 html,
 body {
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
-    color: red;
+    background-color: rgb(248, 248, 248);
+}
+
+.dark-theme {
+    background-color: rgb(68, 68, 68);
+    color: white;
 }

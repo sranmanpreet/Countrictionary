@@ -1,0 +1,28 @@
+<div class="actions-container">
+    <button routerLink="/home">Back</button>
+</div>
+<div class="content">
+    <img src="{{country.flag}}" alt="">
+    <div class="country-details">
+        <h1>{{country.name}}</h1>
+        <div class="list-of-details">
+            <ul>
+                <li><span>Native Name: </span>{{country.nativeName}}</li>
+                <li><span>Population: </span>{{country.population}}</li>
+                <li><span>Region: </span>{{country.region}}</li>
+                <li><span>Sub Region: </span>{{country.subregion}}</li>
+                <li><span>Captial: </span>{{country.capital}}</li>
+            </ul>
+            <ul>
+                <li><span>Top Level Domain: </span>{{country.topLevelDomain}}</li>
+                <li><span>Currencies: </span>
+                    <span class="currencies" *ngFor="let currency of country.currencies">{{currency.name}}, </span>
+                </li>
+                <li><span>Languages: </span><span class="languages" *ngFor="let language of country.languages">{{language.name}}, </span></li>
+            </ul>
+        </div>
+        <div class="border-countries">
+            <p><span>Border Countries </span>{{border}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 250px;
+    min-height: 340px;
+    padding-bottom: 2%;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(102, 102, 102, 0.425);
+    img {
+        width: 250px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .card-text {
+        padding: 5%;
+        h3 {
+            display: inline;
+            a {
+                text-decoration: none;
+                color: black;
+                cursor: pointer;
+            }
+             :hover {
+                color: rgb(105, 148, 69);
+            }
+        }
+        p {
+            font-size: 0.8rem;
+            span {
+                font-weight: 800;
+            }
+        }
+    }
+}
