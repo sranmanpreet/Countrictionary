@@ -1,6 +1,6 @@
 # Countrictionary
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+Countrictionary was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0. It displays list of all the countries returned by https://restcountries.eu/ API's. Application contains Search, Filter by region features, and makes use of angular routes.
 
 ## Development server
 
